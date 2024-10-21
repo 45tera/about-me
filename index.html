@@ -10,13 +10,16 @@
     <div id="mydiv"></div>
 
     <script type="text/babel">
-      function Hello() {
-        return <h1>Hello World!</h1>;
-      }
+      const page = (
+        <div>
+          <h1>Tan Yee Ming</h1>
+          <p>An inquisitive freshmen in Singapore Management University's Computer Science with a Cybersecurity specialisation.</p>
+        </div>
+      )
       
       const container = document.getElementById('mydiv');
       const root = ReactDOM.createRoot(container);
-      root.render(<Hello />)
+      root.render(page)
     </script>
 
   </body>
